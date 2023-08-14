@@ -17,6 +17,7 @@ body {
     align-items: center;
     background-color: rgb(60, 145, 201);
     flex-direction: column;
+    margin-top:40px;
 }
 .box{
     width: 30%;
