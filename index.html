@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="heading-box">
+                <h2 id="pass-box">Testing</h2>
+            </div>
+            <div class="pass-length">
+                <h3>Password Length</h3>
+                <input class="length" id="total-char" type="number" value="10">
+            </div>
+            <div class="options-box">
+                <label for="vehicle1" id="text-option"> Upper Case</label>
+                <input type="checkbox" id="upper-case" name="vehicle1" value="Bike">
+            </div>
+
+            <div class="options-box">
+                <label for="vehicle1" id="text-option"> Lower Case</label><br>
+                <input type="checkbox" id="lower-case" name="vehicle1" value="Bike">
+            </div>
+            <div class="options-box">
+                <label for="vehicle1" id="text-option"> Numbers</label><br>
+                <input type="checkbox" id="numbers" name="vehicle1" value="Bike">
+            </div>
+            
+            <div class="options-box">
+                <label for="vehicle1" id="text-option"> Symbols</label><br>
+                <input type="checkbox" id="symbols" name="vehicle1" value="Bike">
+            </div>
+            <div class="options-box">
+                <button class="btn" id="btn">
+                    Generate
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
